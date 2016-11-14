@@ -68,9 +68,9 @@ q:before, q:after {
 
 .col-left{
   outline: 2px solid red;
-  width:15%;
+  width:12%;
   float:left;
-  margin: 0 auto;
+  margin-left: 5%;
 }
 
 .col-left p{
@@ -91,9 +91,12 @@ q:before, q:after {
   outline:2px solid blue;
   height:80%;
   width:60%;
-  margin: 0 auto;
+  margin: 0 6%;
+	padding-left: 4%;
   overflow: auto;
 	clear:none;
+	/*float:left;*/
+	/*Padding v margin?...*/
 }
 .center p{
   padding:1em 0;
@@ -102,10 +105,6 @@ q:before, q:after {
 .center em{
   font-style:italic;
 
-}
-
-.main::after{
-  clear:both;
 }
 
 .main img{
@@ -119,6 +118,12 @@ q:before, q:after {
 	float:right;
 	outline: 2px solid gray;
 }
+
+
+.main::after{
+  clear:both;
+}
+
 
 h1{
   font-size: 3em;
