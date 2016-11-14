@@ -63,6 +63,7 @@ q:before, q:after {
 .main{
   clear:both;
   width: 100%;
+  margin:5% auto;
   outline:2px solid green;
 }
 
@@ -70,14 +71,37 @@ q:before, q:after {
   outline: 2px solid red;
   width:20%;
   float:left;
+  margin: 0 0 0 6em;
+}
+
+.col-left p{
+  font-family:'Calibri',serif;
+  color:gray;
+  line-height: 1.2;
+  font-size:1.2em;
+  border-bottom: 2px solid gray;
+}
+
+.col-left h6{
+  text-transform: uppercase;
+  color:gray;
+  margin:1em 0;
 }
 
 .center{
   outline:2px solid blue;
   height:80%;
-  width:50%;
+  width:60%;
   margin: 0 auto;
   overflow: auto;
+}
+.center p{
+  padding:1em 0;
+}
+
+.center em{
+  font-style:italic;
+
 }
 
 .main::after{
@@ -86,4 +110,18 @@ q:before, q:after {
 
 h1{
   font-size: 3em;
+  font-weight: 800;
+  line-height: 1.1;
+}
+h2{
+  font-size: 2.5em;
+}
+h3{
+  font-size:2.25em;
+}
+h4{
+  font-size:2em;
+}
+h5{
+  font-size:1.5em;
 }
