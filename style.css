@@ -61,17 +61,16 @@ q:before, q:after {
 }
 
 .main{
-  clear:both;
   width: 100%;
-  margin:5% auto;
+  margin:5% 0;
   outline:2px solid green;
 }
 
 .col-left{
   outline: 2px solid red;
-  width:20%;
+  width:15%;
   float:left;
-  margin: 0 0 0 6em;
+  margin: 0 auto;
 }
 
 .col-left p{
@@ -94,6 +93,7 @@ q:before, q:after {
   width:60%;
   margin: 0 auto;
   overflow: auto;
+	clear:none;
 }
 .center p{
   padding:1em 0;
@@ -106,6 +106,18 @@ q:before, q:after {
 
 .main::after{
   clear:both;
+}
+
+.main img{
+	max-width: 80%;
+  max-height: 80%;
+	margin:2em 2em;
+}
+
+.box-right{
+	width:10%;
+	float:right;
+	outline: 2px solid gray;
 }
 
 h1{
